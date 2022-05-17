@@ -4,7 +4,7 @@ PHP PumpkinJob Starter Project Template that Works Out-of-the-Box
 
 [![PumpkinJob in PHP](https://img.shields.io/badge/PumpkinJob-PHP-blue)](https://github.com/coco-gene/PumpkinJob-Client-PHP)
 
-## Connecting Chatbots
+## Connecting PumpkinJob
 
 [![Powered by PumpkinJob](https://img.shields.io/badge/Powered%20By-PumpkinJob-brightgreen.svg)](https://github.com/coco-gene/PumpkinJob-Client-PHP)
 [![PHP Version](https://img.shields.io/packagist/v/coco-gene/PumpkinJob-Client-PHP)](https://packagist.org/packages/coco-gene/PumpkinJob-Client-PHP)
