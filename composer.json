@@ -1,0 +1,48 @@
+{
+  "name": "coco-gene/pumpkinjob-php-getting-started",
+  "type": "template",
+  "description": "PHP PumpkinJob Starter Project Template that Works Out-of-the-Box.",
+  "keywords": [
+    "template",
+    "autoload"
+  ],
+  "homepage": "https://github.com/coco-gene/pumpkinjob-php-getting-started",
+  "license": "Apache-2.0",
+  "version": "v0.0.1",
+  "authors": [
+    {
+      "name": "Chunsheng Zhang",
+      "email": "zhangchunsheng423@gmail.com",
+      "homepage": "https://www.luomor.com/"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "pumpkinjob/pumpkinjob-client-php": "^v0.0.2"
+  },
+  "require-dev": {
+
+  },
+  "config": {
+
+  },
+  "extra": {
+
+  },
+  "autoload": {
+    "psr-4": {
+
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "examples/"
+    }
+  },
+  "scripts": {
+
+  },
+  "support": {
+    "issues": "https://github.com/coco-gene/pumpkinjob-php-getting-started/issues"
+  }
+}
