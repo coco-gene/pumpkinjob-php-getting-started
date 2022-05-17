@@ -1,4 +1,4 @@
-# pumpkinjob-php-getting-started [![PHP Version](https://img.shields.io/packagist/v/coco-gene/PumpkinJob-Client-PHP)](https://packagist.org/packages/coco-gene/PumpkinJob-Client-PHP) [![PHP CI](https://github.com/coco-gene/pumpkinjob-php-getting-started/workflows/PHP%20CI/badge.svg)](https://github.com/coco-gene/pumpkinjob-php-getting-started/actions?query=workflow%3A%22PHP+CI%22)
+# pumpkinjob-php-getting-started [![PHP Version](https://img.shields.io/packagist/v/pumpkinjob/pumpkinjob-client-php)](https://packagist.org/packages/pumpkinjob/pumpkinjob-client-php) [![PHP CI](https://github.com/coco-gene/pumpkinjob-php-getting-started/workflows/PHP%20CI/badge.svg)](https://github.com/coco-gene/pumpkinjob-php-getting-started/actions?query=workflow%3A%22PHP+CI%22)
 
 PHP PumpkinJob Starter Project Template that Works Out-of-the-Box
 
@@ -32,6 +32,8 @@ $params = array(
 );
 // if there is no id param it will add a new job otherwise if will modify the job
 $result = $pumpkinJobClient->saveJob($params);
+
+$result = $pumpkinJobClient->runJob($jobId);
 ```
 
 ## Usage
